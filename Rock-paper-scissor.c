@@ -7,6 +7,7 @@ int main()
 {
     srand(time(0));
     int usrchoice,cmpchoice;
+    clrscr();
     cmpchoice=rand()%3;
     printf("\n Computer-choice=%d",cmpchoice);
     printf("\n random Number:%d",rand());
@@ -44,6 +45,6 @@ int main()
     if(usrchoice>2)
         printf("\n Choose either 0, 1 and 2");
 
-
+    getch();
     return 0;
 }
